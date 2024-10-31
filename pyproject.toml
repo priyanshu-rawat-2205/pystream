@@ -1,0 +1,29 @@
+[project]
+name = "pystream"
+version = "0.1.0"
+description = "A python package for creating on-demand video streaming APIs"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Priyanshu Rawat", email = "dev.priyanshurawat@gmail.com" }
+]
+keywords = ["video streaming", "HLS", "DASH", "FastAPI", "Flask", "Django", "pystream"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "aiofiles>=0.7.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=6.2.5"]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["pystream"]

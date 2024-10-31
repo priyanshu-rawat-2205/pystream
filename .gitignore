@@ -1,0 +1,44 @@
+# Byte-compiled and cached files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment (if you’re using a local venv, though Poetry handles this in its own folder)
+.venv/
+env/
+venv/
+pystrem_venv/
+pystream_venv/*
+
+# Distribution / Packaging
+*.egg-info/
+dist/
+build/
+
+# PyInstaller files
+*.spec
+
+# Environment and config files
+.env  # For environment variables, often used for sensitive data
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS specific files
+.DS_Store
+
+# Test and coverage reports
+htmlcov/
+.coverage
+.tox/
+.cache
+pytest_cache/
+
+# Poetry specific lock files
+poetry.lock  # Lock file for reproducible installs (optional, see note below)
